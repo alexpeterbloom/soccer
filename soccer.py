@@ -207,10 +207,15 @@ while ahd < 40:
     print("")
     ahd += 1
 
-print("Attackers" + "        | " "Goal Scoring" + " | " "Risk of being carded" + " | " + "Penalty Skill")
-print("Harry Kane" + "       |     " + str(HarryKane[0]) + "      |        " + str(HarryKane[1]) + "           |    " + str(HarryKane[2]))
-print("Marcus Rashford" + "  |     " + str(MarcusRashford[0]) + "      |        " + str(MarcusRashford[1]) + "           |    " + str(MarcusRashford[2]))
-print("Raheem Sterling" + "  |     " + str(RaheemSterling[0]) + "      |        " + str(RaheemSterling[1]) + "           |    " + str(RaheemSterling[2]))
+
+def print_attackers_table():
+    print("Attackers" + "        | " "Goal Scoring" + " | " "Risk of being carded" + " | " + "Penalty Skill")
+    print("Harry Kane" + "       |     " + str(HarryKane[0]) + "      |        " + str(HarryKane[1]) + "           |    " + str(HarryKane[2]))
+    print("Marcus Rashford" + "  |     " + str(MarcusRashford[0]) + "      |        " + str(MarcusRashford[1]) + "           |    " + str(MarcusRashford[2]))
+    print("Raheem Sterling" + "  |     " + str(RaheemSterling[0]) + "      |        " + str(RaheemSterling[1]) + "           |    " + str(RaheemSterling[2]))
+
+
+print_attackers_table()
 
 print("")
 
@@ -1127,9 +1132,9 @@ while us < full:
                     else:
                         ball = -9
                         x = random.randint(1, 100)
-                        if x < (100 * T2D1[0]) / (Team2Defense):
+                        if x < (100 * T2D1[0]) / (team2defense):
                             player = T2D1
-                        elif x < (100 * T2D2[0]) / (Team2Defense):
+                        elif x < (100 * T2D2[0]) / (team2defense):
                             player = T2D2
                         else:
                             player = T2D3
@@ -1225,10 +1230,10 @@ while us < full:
                                 print(player[n] + " lunges and shoots on the rebound, but " + T2K[3] + " is just able to get back and grabs the ball.")
                     else:
                         ball = -9
-                        x = randint(1, 100)
-                        if x < (100 * T2D1[0]) / (Team2Defense):
+                        x = random.randint(1, 100)
+                        if x < (100 * T2D1[0]) / (team2defense):
                             player = T2D1
-                        elif x < (100 * T2D2[0]) / (Team2Defense):
+                        elif x < (100 * T2D2[0]) / (team2defense):
                             player = T2D2
                         else:
                             player = T2D3
@@ -1321,8 +1326,6 @@ while us < full:
             elif b == 3:
                 print(T1K[3] + " kicks it to " + player[4])
         player2 = player
-
-
 
     elif ball == -1:
         player = random.choice(team2playersa)
@@ -2045,9 +2048,9 @@ while us < full:
                     else:
                         ball = 9
                         x = random.randint(1, 100)
-                        if x < (100 * T1D1[0]) / (Team1Defense):
+                        if x < (100 * T1D1[0]) / team1defense:
                             player = T1D1
-                        elif x < (100 * T1D2[0]) / (Team1Defense):
+                        elif x < (100 * T1D2[0]) / team1defense:
                             player = T1D2
                         else:
                             player = T1D3
@@ -2143,10 +2146,10 @@ while us < full:
                             target2 += 1
                     else:
                         ball = 9
-                        x = randint(1, 100)
-                        if x < (100 * T1D1[0]) / (Team1Defense):
+                        x = random.randint(1, 100)
+                        if x < (100 * T1D1[0]) / (team2defense):
                             player = T1D1
-                        elif x < (100 * T1D2[0]) / (Team1Defense):
+                        elif x < (100 * T1D2[0]) / (team2defense):
                             player = T1D2
                         else:
                             player = T1D3
@@ -2645,7 +2648,7 @@ while (team2goals - team1goals) < (6 - team1shots) and (team1goals - team2goals)
                 elif b == 3:
                     print("All " + T1K[3] + " can do is watch as the ball rolls into the bottom corner.")
                 elif b == 4:
-                    print("The shot likely wouldn't have been blocked anyway, but the goalkeeper diving the wrong way soldifies the goal.")
+                    print("The shot likely wouldn't have been blocked anyway, but the goalkeeper diving the wrong way solidifies the goal.")
                 else:
                     print("The shot is perfect, flying into the top corner.")
                 team2goals += 1
@@ -2676,4 +2679,3 @@ while (team2goals - team1goals) < (6 - team1shots) and (team1goals - team2goals)
     print(str(team1goals) + "  -  " + str(team2goals))
     print("")
     time.sleep(3)
-

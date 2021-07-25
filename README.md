@@ -7,3 +7,5 @@ This is a game to play soccer...
 To play run:
 
 `python3 soccer.py`
+
+This is really fun!!

@@ -24,14 +24,14 @@ BukayoSaka = [7.2, 6.1, 4.5, 5.9, "Bukayo Saka(M)", 0]
 JudeBellingham = [6.1, 2.0, 5.7, 5.6, "Jude Bellingham(M)", 0]
 PhilFoden = [6.4, 2.3, 5.1, 5.8, "Phil Foden(M)", 0]
 
-JohnStones = [7.1, 8.5, 4.6, "John Stones(D)", 0]
+JohnStones = [9.9, 18.5, 9.9, "John Stones(D)", 0]
 KyleWalker = [7.6, 9.4, 5.1, "Kyle Walker(D)", 0]
 BenChilwell = [6.2, 3.8, 4.4, "Ben Chilwell(D)", 0]
 TrentAlexander = [6.4, 3.2, 4.5, "Trent Alexander-Arnold(D)", 0]
 TyroneMings = [4.6, 0.5, 4.3, "Tryone Mings(D)", 0]
 
-JordanPickford = [7.0, 6.5, 2.1, "Jordan Pickford(G)", 0]
-SamJohnstone = [5.0, 9.7, 2.0, "Sam Johnstone(G)", 0]
+JordanPickford = [9.0, 5.1, 2.1, "Jordan Pickford(G)", 0]
+SamJohnstone = [5.1, 9.3, 2.0, "Sam Johnstone(G)", 0]
 
 RaheemSterling2 = [1.6, 2.5, 7.6, "Raheem Sterling(A2)", 0]
 MarcusRashford2 = [8.8, 1.2, 3.2, "Marcus Rashford(A2)", 0]
@@ -43,20 +43,21 @@ BukayoSaka2 = [7.2, 6.1, 4.5, 5.9, "Bukayo Saka(M2)", 0]
 JudeBellingham2 = [6.1, 2.0, 5.7, 5.6, "Jude Bellingham(M2)", 0]
 PhilFoden2 = [6.4, 2.3, 5.1, 5.8, "Phil Foden(M2)", 0]
 
-JohnStones2 = [7.1, 8.5, 4.6, "John Stones(D2)", 0]
+JohnStones2 = [9.9, 18.5, 9.9, "John Stones(D2)", 0]
 KyleWalker2 = [7.6, 9.4, 5.1, "Kyle Walker(D2)", 0]
 BenChilwell2 = [6.2, 3.8, 4.4, "Ben Chilwell(D2)", 0]
 TrentAlexander2 = [6.4, 3.2, 4.5, "Trent Alexander-Arnold(D2)", 0]
 TyroneMings2 = [4.6, 0.5, 4.3, "Tryone Mings(D2)", 0]
 
-JordanPickford2 = [7.0, 2.5, 2.1, "Jordan Pickford(G2)", 0]
-SamJohnstone2 = [2.0, 9.7, 2.0, "Sam Johnstone(G2)", 0]
+JordanPickford2 = [9.0, 5.1, 2.1, "Jordan Pickford(G2)", 0]
+SamJohnstone2 = [5.1, 9.3, 2.1, "Sam Johnstone(G2)", 0]
 
+print("one\t\t|")
 
-print("Attackers" + "        | " "Goal Scoring" + " | " "Risk of being carded" + " | " + "Penalty Skill")
-print("Harry Kane" + "       |     " + str(HarryKane[0]) + "      |        " + str(HarryKane[1]) + "           |    " + str(HarryKane[2]))
-print("Marcus Rashford" + "  |     " + str(MarcusRashford[0]) + "      |        " + str(MarcusRashford[1]) + "           |    " + str(MarcusRashford[2]))
-print("Raheem Sterling" + "  |     " + str(RaheemSterling[0]) + "      |        " + str(RaheemSterling[1]) + "           |    " + str(RaheemSterling[2]))
+print("Attackers\t\t\t|" + "Goal Scoring" + "\t|\t" "Risk of being carded" + " | " + "Penalty Skill")
+print("Harry Kane\t\t\t|"  + str(HarryKane[0]) + "|        " + str(HarryKane[1]) + "           |    " + str(HarryKane[2]))
+print("Marcus Rashford\t\t|"  + str(MarcusRashford[0]) + "      |        " + str(MarcusRashford[1]) + "           |    " + str(MarcusRashford[2]))
+print("Raheem Sterling\t\t|"  + str(RaheemSterling[0]) + "      |        " + str(RaheemSterling[1]) + "           |    " + str(RaheemSterling[2]))
 
 print("")
 
@@ -206,15 +207,10 @@ while ahd < 40:
     print("")
     ahd += 1
 
-
-def print_attackers_table():
-    print("Attackers" + "        | " "Goal Scoring" + " | " "Risk of being carded" + " | " + "Penalty Skill")
-    print("Harry Kane" + "       |     " + str(HarryKane[0]) + "      |        " + str(HarryKane[1]) + "           |    " + str(HarryKane[2]))
-    print("Marcus Rashford" + "  |     " + str(MarcusRashford[0]) + "      |        " + str(MarcusRashford[1]) + "           |    " + str(MarcusRashford[2]))
-    print("Raheem Sterling" + "  |     " + str(RaheemSterling[0]) + "      |        " + str(RaheemSterling[1]) + "           |    " + str(RaheemSterling[2]))
-
-
-print_attackers_table()
+print("Attackers" + "        | " "Goal Scoring" + " | " "Risk of being carded" + " | " + "Penalty Skill")
+print("Harry Kane" + "       |     " + str(HarryKane[0]) + "      |        " + str(HarryKane[1]) + "           |    " + str(HarryKane[2]))
+print("Marcus Rashford" + "  |     " + str(MarcusRashford[0]) + "      |        " + str(MarcusRashford[1]) + "           |    " + str(MarcusRashford[2]))
+print("Raheem Sterling" + "  |     " + str(RaheemSterling[0]) + "      |        " + str(RaheemSterling[1]) + "           |    " + str(RaheemSterling[2]))
 
 print("")
 
@@ -237,7 +233,6 @@ ahd = 0
 while ahd < 40:
     print("")
     ahd += 1
-
 print("Midfielders" + "      | " + " Goal Scoring " + " | " + "Risk of being carded" + " | " + "Penalty Skill" + " | " + "Defending Skill")
 print("Jack Grealish" + "    |     " + str(JackGrealish[0]) + "        |        " + str(JackGrealish[1]) + "           |     " + str(JackGrealish[2]) + "       |     " + str(JackGrealish[3]))
 print("Kalvin Philips" + "   |     " + str(KalvinPhilips[0]) + "        |        " + str(KalvinPhilips[1]) + "           |     " + str(KalvinPhilips[2]) + "       |     " + str(KalvinPhilips[3]))
@@ -396,6 +391,7 @@ team2score = 0
 half = 46
 full = 90
 
+
 while us < full:
     if ball > 1:
         possession1 += 1
@@ -425,8 +421,7 @@ while us < full:
         mk = 0
         entered = 0
         x = random.randint(1, 100)
-        # noinspection PyUnboundLocalVariable
-        if x < 60 * (player[0]) / team2midfieldd:
+        if x < 60 * (player[0]) / (team2midfieldd):
             ball = -2
             entered = 1
             x = random.randint(1, 4)
@@ -593,7 +588,7 @@ while us < full:
                 if kda == 2:
                     print(player[3] + " puts his foot behind the ball and hits a powerful shot.")
                 if kda == 3:
-                    print(player[3] + " is the fortunate receiver of bad marking, and manages to get into space for a clear shot.")
+                    print(player[3] + " is the fortunate reciever of bad marking, and manages to get into space for a clear shot.")
                 time.sleep(4)
                 print("")
                 shot1 += 1
@@ -637,11 +632,11 @@ while us < full:
                             ball = -10
                             kd = random.randint(1, 3)
                             if kd == 1:
-                                print(player[3] + "'s shot had some power behind it, but was inaccurate and went over the bar for a goal kick.")
+                                print(player[3] + "'s shot had some power behind it, but was unaccurate and went over the bar for a goalkick.")
                             if kd == 2:
                                 print(player[3] + "'s shot barely goes wide, nearly bringing a brilliant goal.")
                             if kd == 3:
-                                print(player[3] + "'s shot had just a bit too much curve, and went wide for a goal kick.")
+                                print(player[3] + "'s shot had just a bit too much curve, and went wide for a goalkick.")
         player2 = player
     elif ball == 4:
         entered = 0
@@ -706,11 +701,11 @@ while us < full:
                 if x == 1:
                     kd = random.randint(1, 3)
                     if kd == 1:
-                        print(player2[3] + "'s shot had some power behind it, but was inaccurate and went over the bar for a goal kick.")
+                        print(player2[3] + "'s shot had some power behind it, but was unaccurate and went over the bar for a goalkick.")
                     if kd == 2:
                         print(player2[3] + "'s shot barely goes wide, nearly bringing a brilliant goal.")
                     if kd == 3:
-                        print(player2[3] + "'s shot had just a bit too much curve, and went wide for a goal kick.")
+                        print(player2[3] + "'s shot had just a bit too much curve, and went wide for a goalkick.")
                 if x == 2:
                     target1 += 1
                     dkd = random.randint(1, 3)
@@ -738,9 +733,9 @@ while us < full:
             if y == 1:
                 print("The ball goes straight towards " + T2K[3] + ".")
             if y == 2:
-                print("The ball flies way long, and goes out for a goal kick.")
+                print("The ball flies way long, and goes out for a goalkick.")
             if y == 3:
-                print("No one is near the ball, leading it to go wide for a goal kick.")
+                print("No one is near the ball, leading it to go wide for a goalkick.")
         else:
             y = random.randint(1, 4)
             if y == 1:
@@ -785,11 +780,11 @@ while us < full:
                     ball = -10
                     y = random.randint(1, 3)
                     if y == 1:
-                        print(player2[h] + " is able to fend off " + player[k] + " and the ball goes out for a goal kick.")
+                        print(player2[h] + " is able to fend off " + player[k] + " and the ball goes out for a goalkick.")
                     elif y == 2:
-                        print(player2[h] + " and " + player[k] + " compete for the ball, and in the end, neither of them get it, and it goes out for a goal kick")
+                        print(player2[h] + " and " + player[k] + " compete for the ball, and in the end, neither of them get it, and it goes out for a goalkick")
                     elif y == 3:
-                        print(player2[h] + " successfully defends " + player[k] + " and the ball flies long for a goal kick.")
+                        print(player2[h] + " successfully defends " + player[k] + " and the ball flies long for a goalkick.")
                 elif x < 50 * (player2[n] / player[0]):
                     ball = 5
                     y = random.randint(1, 3)
@@ -879,7 +874,7 @@ while us < full:
             elif b == 2:
                 print("The freekick had some power to it, but the aim was off, and the ball is sent into the stands.")
             elif b == 3:
-                print("The ball has some curl on it, but not enough, and goes past the goal for a goal kick.")
+                print("The ball has some curl on it, but not enough, and goes past the goal for a goalkick.")
             ball = -10
         else:
             target1 += 1
@@ -937,7 +932,7 @@ while us < full:
             if b == 1:
                 print("The pass by " + player2[4] + " is horrible and is intercepted by " + player[4] + ".")
             if b == 2:
-                print(player2[4] + "'s pass was weak and inaccurate, and it was intercepted by " + player[4] + ".")
+                print(player2[4] + "'s pass was weak and inacurate, and it was intercepted by " + player[4] + ".")
         else:
             x = random.randint(1, 100)
             if x < 15:
@@ -1132,9 +1127,9 @@ while us < full:
                     else:
                         ball = -9
                         x = random.randint(1, 100)
-                        if x < (100 * T2D1[0]) / (team2defense):
+                        if x < (100 * T2D1[0]) / (Team2Defense):
                             player = T2D1
-                        elif x < (100 * T2D2[0]) / (team2defense):
+                        elif x < (100 * T2D2[0]) / (Team2Defense):
                             player = T2D2
                         else:
                             player = T2D3
@@ -1167,7 +1162,7 @@ while us < full:
                 elif b == 3:
                     print("All " + T2K[3] + " can do is watch as the ball rolls into the bottom corner.")
                 elif b == 4:
-                    print("The shot likely wouldn't have been blocked anyway, but the goalkeeper diving the wrong way soldifies the goal.")
+                    print("The shot likely wouldn't have been blocked anyway, but the goalkeeper diving the wrong way solidifies the goal.")
                 else:
                     print("The shot is perfect, flying into the top corner.")
                 target1 += 1
@@ -1230,10 +1225,10 @@ while us < full:
                                 print(player[n] + " lunges and shoots on the rebound, but " + T2K[3] + " is just able to get back and grabs the ball.")
                     else:
                         ball = -9
-                        x = random.randint(1, 100)
-                        if x < (100 * T2D1[0]) / (team2defense):
+                        x = randint(1, 100)
+                        if x < (100 * T2D1[0]) / (Team2Defense):
                             player = T2D1
-                        elif x < (100 * T2D2[0]) / (team2defense):
+                        elif x < (100 * T2D2[0]) / (Team2Defense):
                             player = T2D2
                         else:
                             player = T2D3
@@ -1326,7 +1321,6 @@ while us < full:
             elif b == 3:
                 print(T1K[3] + " kicks it to " + player[4])
         player2 = player
-
     elif ball == -1:
         player = random.choice(team2playersa)
         player2 = random.choice(team2playersm)
@@ -1512,7 +1506,7 @@ while us < full:
                 if kda == 2:
                     print(player[3] + " puts his foot behind the ball and hits a powerful shot.")
                 if kda == 3:
-                    print(player[3] + " is the fortunate receiver of bad marking, and manages to get into space for a clear shot.")
+                    print(player[3] + " is the fortunate reciever of bad marking, and manages to get into space for a clear shot.")
                 time.sleep(4)
                 print("")
                 if x < 40 * (player[0] / T1K[0]):
@@ -1556,11 +1550,11 @@ while us < full:
                             ball = 10
                             kd = random.randint(1, 3)
                             if kd == 1:
-                                print(player[3] + "'s shot had some power behind it, but was inaccurate and went over the bar for a goal kick.")
+                                print(player[3] + "'s shot had some power behind it, but was unaccurate and went over the bar for a goalkick.")
                             if kd == 2:
                                 print(player[3] + "'s shot barely goes wide, nearly bringing a brilliant goal.")
                             if kd == 3:
-                                print(player[3] + "'s shot had just a bit too much curve, and went wide for a goal kick.")
+                                print(player[3] + "'s shot had just a bit too much curve, and went wide for a goalkick.")
         player2 = player
     elif ball == -4:
         entered = 0
@@ -1624,11 +1618,11 @@ while us < full:
                 if x == 1:
                     kd = random.randint(1, 3)
                     if kd == 1:
-                        print(player2[3] + "'s shot had some power behind it, but was inaccurate and went over the bar for a goal kick.")
+                        print(player2[3] + "'s shot had some power behind it, but was unaccurate and went over the bar for a goalkick.")
                     if kd == 2:
                         print(player2[3] + "'s shot barely goes wide, nearly bringing a brilliant goal.")
                     if kd == 3:
-                        print(player2[3] + "'s shot had just a bit too much curve, and went wide for a goal kick.")
+                        print(player2[3] + "'s shot had just a bit too much curve, and went wide for a goalkick.")
                 if x == 2:
                     dkd = random.randint(1, 3)
                     if dkd == 1:
@@ -1656,9 +1650,9 @@ while us < full:
             if y == 1:
                 print("The ball goes straight towards " + T2K[3] + ".")
             if y == 2:
-                print("The ball flies way long, and goes out for a goal kick.")
+                print("The ball flies way long, and goes out for a goalkick.")
             if y == 3:
-                print("No one is near the ball, leading it to go wide for a goal kick.")
+                print("No one is near the ball, leading it to go wide for a goalkick.")
         else:
             y = random.randint(1, 4)
             if y == 1:
@@ -1703,13 +1697,13 @@ while us < full:
                     ball = -10
                     y = random.randint(1, 3)
                     if y == 1:
-                        print(player2[h] + " is able to fend off " + player[k] + " and the ball goes out for a goal kick.")
+                        print(player2[h] + " is able to fend off " + player[k] + " and the ball goes out for a goalkick.")
                     elif y == 2:
-                        print(player2[h] + " and " + player[k] + " compete for the ball, and in the end, neither of them get it, and it goes out for a goal kick")
+                        print(player2[h] + " and " + player[k] + " compete for the ball, and in the end, neither of them get it, and it goes out for a goalkick")
                     elif y == 3:
-                        print(player2[h] + " successfully defends " + player[k] + " and the ball flies long for a goal kick.")
+                        print(player2[h] + " successfully defends " + player[k] + " and the ball flies long for a goalkick.")
                 elif x < 50 * (player2[n] / player[0]):
-                    ball = 5
+                    ball = -5
                     y = random.randint(1, 3)
                     if y == 1:
                         print(player2[h] + " is able to prevent " + player[k] + " from getting the ball, and heads it out for another corner.")
@@ -1797,7 +1791,7 @@ while us < full:
             elif b == 2:
                 print("The freekick had some power to it, but the aim was off, and the ball is sent into the stands.")
             elif b == 3:
-                print("The ball has some curl on it, but not enough, and goes past the goal for a goal kick.")
+                print("The ball has some curl on it, but not enough, and goes past the goal for a goalkick.")
             ball = 10
         else:
             x = random.randint(1, 100)
@@ -1857,7 +1851,7 @@ while us < full:
             if b == 1:
                 print("The pass by " + player2[4] + " is horrible and is intercepted by " + player[4] + ".")
             if b == 2:
-                print(player2[4] + "'s pass was weak and inaccurate, and it was intercepted by " + player[4] + ".")
+                print(player2[4] + "'s pass was weak and inacurate, and it was intercepted by " + player[4] + ".")
         else:
             x = random.randint(1, 100)
             if x < 11:
@@ -2035,7 +2029,7 @@ while us < full:
                             if b == 1:
                                 print(player[n] + " gets the ball on the rebound, and is able to put it past " + T1K[3] + " for his team.")
                             if b == 2:
-                                print(player[n] + " lunges to get the rebound and kicks it in the net.")
+                                print(player[n] + " lunges to get ther rebound and kicks it in the net.")
                         else:
                             ball = 10
                             b = random.randint(1, 2)
@@ -2048,9 +2042,9 @@ while us < full:
                     else:
                         ball = 9
                         x = random.randint(1, 100)
-                        if x < (100 * T1D1[0]) / team1defense:
+                        if x < (100 * T1D1[0]) / (Team1Defense):
                             player = T1D1
-                        elif x < (100 * T1D2[0]) / team1defense:
+                        elif x < (100 * T1D2[0]) / (Team1Defense):
                             player = T1D2
                         else:
                             player = T1D3
@@ -2132,7 +2126,7 @@ while us < full:
                             if b == 1:
                                 print(player[n] + " gets the ball on the rebound, and is able to put it past " + T1K[3] + " for his team.")
                             if b == 2:
-                                print(player[n] + " lunges to get the rebound and kicks it in the net.")
+                                print(player[n] + " lunges to get ther rebound and kicks it in the net.")
                             shot2 += 1
                             target2 += 1
                         else:
@@ -2146,10 +2140,10 @@ while us < full:
                             target2 += 1
                     else:
                         ball = 9
-                        x = random.randint(1, 100)
-                        if x < (100 * T1D1[0]) / (team2defense):
+                        x = randint(1, 100)
+                        if x < (100 * T1D1[0]) / (Team1Defense):
                             player = T1D1
-                        elif x < (100 * T1D2[0]) / (team2defense):
+                        elif x < (100 * T1D2[0]) / (Team1Defense):
                             player = T1D2
                         else:
                             player = T1D3
@@ -2330,14 +2324,14 @@ elif team1score - team2score < -2:
 elif team1score - team2score > 0:
     won1 = ["It was generally strong show from " + team1 + " who at times looked unconfident, but pulled through in the end",
             "While it was a fairly even match for most of the game, it was " + team1 + " who took the opportunities they were given and converted them to goals.",
-            " The scoreline of the game was relatively close, but it was " + team1 + " who had the advantage in technique and persistence.",
-            " Many fans concerned by the weakness shown by " + team1 + " at times, but mostly, they were fairly convincing"]
+            " The scoreline of the game was relatively close, but it was " + team1 + " who had the advantage in techinique and persistance.",
+            " Many fans concerned by the weakness shown by " + team1 + " at times, but mostly, they were fairly convinving"]
     print(random.choice(won1))
 elif team1score - team2score < 0:
     won2 = ["It was generally strong show from " + team2 + " who at times looked unconfident, but pulled through in the end",
             "While it was a fairly even match for most of the game, it was " + team2 + " who took the opportunities they were given and converted them to goals.",
-            " The scoreline of the game was relatively close, but it was " + team2 + " who had the advantage in technique and persistence.",
-            " Many fans concerned by the weakness shown by " + team2 + " at times, but mostly, they were fairly convincing"]
+            " The scoreline of the game was relatively close, but it was " + team2 + " who had the advantage in techinique and persistance.",
+            " Many fans concerned by the weakness shown by " + team2 + " at times, but mostly, they were fairly convinving"]
     print(random.choice(won2))
 elif team1score == team2score:
     tie = ["While each side had chances, the game ultimately ended in a draw, with neither team pulling ahead", "To decide this match, the teams head to a penalty shootout.",
@@ -2679,3 +2673,4 @@ while (team2goals - team1goals) < (6 - team1shots) and (team1goals - team2goals)
     print(str(team1goals) + "  -  " + str(team2goals))
     print("")
     time.sleep(3)
+
